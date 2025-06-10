@@ -7,7 +7,7 @@ Pour reccuperer les ID des chanels, sezrveur et role, il faudra activer le mode 
 
 Exemple de fichier .env :  
 DISCORD_TOKEN=9XX9xXx9x9xxXXxXxxXXxxxX999XXXXxxXx9Xx99Xx9x9xxX9xX9XXxXXX99x9xxX9 
-GEMINI_API_KEY=xXXxxxXxxXXxXxxXXxXxxXXxxxXXxXXXXxxXxxXx 
+GEMINI_API_KEY=xXXxxxXxxXXxXxxXXxXxxXXxxxXXxXXXXxxXxxXx
 ADMIN_ROLE_ID=999999999999999999 
 TARGET_CHANNEL_ID=9999999999999999999 
 
