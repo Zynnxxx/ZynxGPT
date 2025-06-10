@@ -5,7 +5,8 @@ Pour parametrer votre clef API et le serveur cible, le salon cible et le role ad
 créer un  fichier .env dans lequel vous devrez preciser les variables DISCORD_TOKEN, GEMINI_API_KEY, ADMIN_ROLE_ID et TARGET_CHANNEL_ID
 Pour reccuperer les ID des chanels, sezrveur et role, il faudra activer le mode developpeur sur discord et puis faire click droit sur les differents elements et reccuperer l'ID.
 
-Exemple de fichier .env: 
+Exemple de fichier .env:
+
 DISCORD_TOKEN=9XX9xXx9x9xxXXxXxxXXxxxX999XXXXxxXx9Xx99Xx9x9xxX9xX9XXxXXX99x9xxX9
 GEMINI_API_KEY=xXXxxxXxxXXxXxxXXxXxxXXxxxXXxXXXXxxXxxXx
 ADMIN_ROLE_ID=999999999999999999 
