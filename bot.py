@@ -21,7 +21,7 @@ CONTEXT_TIMEOUT_MINUTES = 2
 MAX_HISTORY_ITEMS = 20
 
 genai.configure(api_key=GEMINI_API_KEY)
-try: model = genai.GenerativeModel('gemini-1.5-flash')
+try: model = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e: logging.error(f"Erreur init Gemini: {e}"); model = None
 
 
@@ -205,3 +205,4 @@ if __name__ == "__main__":
         try: bot.run(DISCORD_TOKEN)
         except discord.errors.LoginFailure: logging.critical("TOKEN DISCORD INVALIDE ?")
         except Exception as e: logging.critical(f"Erreur fatale lancement: {e}")
+
