@@ -1,6 +1,6 @@
 SUPPORTE UN SEUL SERVEUR ET UN SEUL SALON !
-MARCHE SUR LA BASE DE GEMINI API, IL VOUS FAUDRA OBTENIR UNE CLEF API !
 
+Fonctionne sur la base de gemini api, il vous faudra obtenir votre clée api.
 Pour parametrer votre clef API et le serveur cible, le salon cible et le role administrateur du serveur, 
 créer un  fichier .env dans lequel vous devrez preciser les variables DISCORD_TOKEN, GEMINI_API_KEY, ADMIN_ROLE_ID et TARGET_CHANNEL_ID
 Pour reccuperer les ID des chanels, sezrveur et role, il faudra activer le mode developpeur sur discord et puis faire click droit sur les differents elements et reccuperer l'ID.
